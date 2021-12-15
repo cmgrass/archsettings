@@ -1,4 +1,4 @@
-# archsettingss
+# archsettings
 Notes about my preferred arch setup
 
 ### Arch VMWare Player 15 install notes
