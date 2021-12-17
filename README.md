@@ -172,3 +172,35 @@ $ umount /mnt/boot
 $ umount /mnt
 $ reboot
 ```
+
+### Installing KDE Plasma desktop environment
+Up to this point, we should have the minimal Arch linux running.
+
+Now we can add the desktop environment.
+
+There is good information in the arch wiki. Following were my notes.
+
+```
+pacman -S xorg          <- Accept all default packages at the prompt
+```
+```
+pacman -S plasma kde-applications xdg-user-dirs gnu-free-fonts       <-- Accept all default packages at the prompt 
+```
+```
+systemctl enable sddm
+```
+```
+pacman -S firefox libreoffice     <-- Accept all default packages
+```
+```
+pacman -S xf86-video-vmware xf86-input-vmmouse
+```
+```
+pacman -S open-vm-tools
+```
+```
+systemctl enable vmtoolsd
+```
+```
+reboot
+```
