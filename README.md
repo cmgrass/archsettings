@@ -204,3 +204,31 @@ systemctl enable vmtoolsd
 ```
 reboot
 ```
+
+### Other tools to install
+Need tmux:
+```
+pacman -S tmux
+```
+
+### KDE Plasma System Settings
+Window Management->Window Rules->Add Rule
+```
+Description: generalWindowOpacity
+Window class: Unimportant
+Match: No
+Window Types: All except: Desktop
+Active opacity: 92
+Inactive opacity: 92
+```
+
+Input Devices->Keyboard
+```
+Delay: 180ms
+Rate: 60 repeat/s
+```
+
+Appearance
+```
+Breeze dark
+```
