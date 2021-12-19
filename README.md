@@ -211,6 +211,11 @@ Need tmux:
 pacman -S tmux
 ```
 
+Need development base
+```
+pacman -S base-devel
+```
+
 ### KDE Plasma System Settings
 Window Management->Window Rules->Add Rule
 ```
