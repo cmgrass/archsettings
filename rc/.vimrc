@@ -1,0 +1,2 @@
+:set nosmartindent
+:syntax on
