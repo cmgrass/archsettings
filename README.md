@@ -216,6 +216,11 @@ Need development base
 pacman -S base-devel
 ```
 
+Need inetutils (for GNU ftp client):
+```
+pacman -S inetutils
+```
+
 ### KDE Plasma System Settings
 Window Management->Window Rules->Add Rule
 ```
@@ -236,4 +241,19 @@ Rate: 60 repeat/s
 Appearance
 ```
 Breeze dark
+```
+
+### Other VMWare settings
+I followed the wiki to get copy/paste to/from host working (archwiki: VMware/Install Arch Linux as a guest, Drag and drop, copy/paste)
+
+Following is the summary:
+```
+pacman -Syy   <--- Update packages and lists
+pacman -S open-vm-tools
+pacman -S gtkmm3
+```
+
+Then, per the wiki, I verified the vmware desktop xdg setting file exists:
+```
+etc/xdg/autostart/vmware-user.desktop
 ```
