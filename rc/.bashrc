@@ -9,3 +9,5 @@ alias ls='ls --color=auto'
 PS1='[\u@\h \W]\$ '
 
 alias ll="ls -al"
+
+alias cgrep='grep --color=always'
