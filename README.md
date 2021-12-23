@@ -258,7 +258,15 @@ Then, per the wiki, I verified the vmware desktop xdg setting file exists:
 etc/xdg/autostart/vmware-user.desktop
 ```
 
-Afterwards, I noticed shared folders stopped working, so I had to run the following, which fixed it:
+Afterwards, I noticed shared folders stopped working, so I had to do the following, which fixed it:
+
+Run Command:
 ```
 /usr/bin/vmhgfs-fuse --enabled
+```
+
+Update /etc/fstab
+```
+# VMWare shared folders
+.host:/ /mnt/hgfs fuse.vmhgfs-fuse allow_other 0 0
 ```
