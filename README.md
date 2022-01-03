@@ -243,6 +243,11 @@ Appearance
 Breeze dark
 ```
 
+Blanking screen
+```
+Power management->Energy saving->Screen Energy Saving: Disable
+```
+
 ### Other VMWare settings
 I followed the wiki to get copy/paste to/from host working (archwiki: VMware/Install Arch Linux as a guest, Drag and drop, copy/paste)
 
