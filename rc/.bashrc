@@ -10,6 +10,6 @@ PS1='[\u@\h \W]\$ '
 
 alias ll="ls -al"
 
-alias cgrep='grep --color=always'
+alias cgrep='grep -n -H --color=always'
 
 eval "$(dircolors ~/.dircolors)";
