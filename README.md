@@ -275,3 +275,9 @@ Update /etc/fstab
 # VMWare shared folders
 .host:/ /mnt/hgfs fuse.vmhgfs-fuse allow_other 0 0
 ```
+
+### Fix mozilla font
+Maybe the correct serif was not available? Anyway, someone on the arch forum suggested these, and the worked:
+```
+pacman -S ttf-dejavu ttf-liberation
+```
