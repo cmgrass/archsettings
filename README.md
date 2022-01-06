@@ -216,6 +216,11 @@ Need development base
 pacman -S base-devel
 ```
 
+Need dos2unix
+```
+pacman -S dos2unix
+```
+
 Need inetutils (for GNU ftp client):
 ```
 pacman -S inetutils
