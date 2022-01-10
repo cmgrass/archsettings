@@ -226,6 +226,11 @@ Need inetutils (for GNU ftp client):
 pacman -S inetutils
 ```
 
+Need man pages:
+```
+pacman -S man-pages
+```
+
 ### KDE Plasma System Settings
 Window Management->Window Rules->Add Rule
 ```
