@@ -291,3 +291,13 @@ Maybe the correct serif was not available? Anyway, someone on the arch forum sug
 ```
 pacman -S ttf-dejavu ttf-liberation
 ```
+
+### Firefox middle click scrolling
+On linux, the default middle click behavior is for pasting.
+
+I don't intend to ever use it that way.
+
+This can be overriden in firefox:
+```
+Settings->General->Browsing->[x] Use Autoscrolling
+```
